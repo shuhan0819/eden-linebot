@@ -1,0 +1,76 @@
+# ── 環境變數（含真實金鑰，絕對不能上傳）──────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Google 服務帳號金鑰 ───────────────────────────────────
+service_account.json
+*.json.key
+
+# ── 執行時自動產生的資料夾 ────────────────────────────────
+audio/
+drive_documents/
+breeze_vectorstores/
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── 虛擬環境 ──────────────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── 模型 / 資料 / 大型二進位檔案 ─────────────────────────
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.bin
+*.pt
+*.pth
+*.onnx
+faiss_index/
+*.index
+
+# ── 日誌與暫存輸出 ────────────────────────────────────────
+*.log
+logs/
+*.tmp
+*.temp
+
+# ── 套件建置產物 ──────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+site-packages/
+
+# ── IDE 設定 ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS 雜項 ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Jupyter Notebook ──────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── pytest / coverage ─────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
