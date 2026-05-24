@@ -95,7 +95,7 @@ cp .env.example .env
 ### 啟動服務
 
 ```bash
-python RAG_breeze_linebot.py
+python eden_linebot.py
 ```
 
 服務預設監聽 `http://0.0.0.0:8000`。
@@ -121,7 +121,7 @@ python RAG_breeze_linebot.py
 
 ```
 伊甸聊天機器人/
-├── RAG_breeze_linebot.py   # 主程式（FastAPI + LINE Bot + RAG 全流程）
+├── eden_linebot.py   # 主程式（FastAPI + LINE Bot + RAG 全流程）
 ├── service_account.json    # Google 服務帳號金鑰（請勿上傳，已列入 .gitignore）
 ├── .env                    # 環境變數（請勿上傳，已列入 .gitignore）
 ├── .env.example            # 環境變數範本（可上傳）
