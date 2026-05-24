@@ -1,21 +1,3 @@
-# 伊甸
-# breeze
-
-#!/usr/bin/env python
-# coding: utf-8
-
-# open cmd
-# exec $SHELL
-# conda env list
-# conda activate llama_env
-# ps aux | grep ollama
-# nohup ollama serve > ollama.log 2>&1 &
-# ollama pull jcai/breeze-7b-instruct-v1_0:q4_0
-# ollama list
-# pkill ollama
-
-# ollama3 + RAG => health linebot (Google Drive + Shared Vector DB)
-
 from linebot.v3 import WebhookHandler
 from linebot.v3.messaging import (
     Configuration, ApiClient, MessagingApi, MessagingApiBlob,
