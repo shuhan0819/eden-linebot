@@ -1387,4 +1387,4 @@ async def process_message(event, user_id: str, msg: str):
 
 if __name__ == "__main__":
     log("正在啟動 Uvicorn 伺服器...", "系統")
-    uvicorn.run("RAG_breeze_linebot:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("eden_linebot:app", host="0.0.0.0", port=8000, reload=False)
