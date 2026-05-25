@@ -1,4 +1,10 @@
-# 伊甸聊天機器人 LINE Bot
+# 伊甸社會福利基金會 LINE Bot
+### RAG-Based Health Consultation LINE Bot for Eden Social Welfare Foundation
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-async-green)
+![LINE Bot](https://img.shields.io/badge/Platform-LINE%20Bot-brightgreen)
+![Ollama](https://img.shields.io/badge/LLM-Breeze--7B-orange)
 
 一個部署於 LINE 平台的 RAG（檢索增強生成）健康諮詢聊天機器人，以 Breeze-7B 繁體中文語言模型為核心，結合 Google Drive 文件知識庫，提供溫暖、口語化的健康資訊查詢服務。
 
